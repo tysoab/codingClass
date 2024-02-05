@@ -1,0 +1,29 @@
+body {
+  background-color: aqua;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  border: 2px solid #000000;
+  column-gap: 200px;
+}
+
+.box {
+  border: 10px outset red;
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 50px;
+}
+
+#box-2 {
+  border-radius: 100%;
+  border: 10px outset blueviolet;
+}
